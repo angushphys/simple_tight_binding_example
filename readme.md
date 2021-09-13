@@ -6,6 +6,8 @@ hopping constant only.
 You can also calculate any other materials if modify the wan_basis.mat file by 
 yourself. 
 
+![image](https://github.com/angushphys/simple_tight_binding_example/blob/main/graphene_band.png)
+
 This package including:
 
 * Main program: wannier_band.m
