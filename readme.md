@@ -41,8 +41,8 @@ This file is in format of [VASP's KPOINTS](https://www.vasp.at/wiki/index.php/KP
 
 ## wan_basis.mat
 Descript the hopping constants of graphene.
-The format of wan_basis.hopping in this file is similar to the 
-wannier90_hr.dat of [Wannier90](http://www.wannier.org/).
+The format of `wan_basis.hopping` in this file is similar to the 
+`wannier90_hr.dat` of [Wannier90](http://www.wannier.org/).
 
 The variable in `wan_basis`:
 * `n_band`: number of orbitals
