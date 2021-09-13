@@ -56,3 +56,13 @@ The variable in `wan_basis`:
   * `orbit_0_x_all`: positions of orbit_0 (unused in this example)
 * `lattice_a`: lattice structure of real space
 * `lattice_b`: reciprocal lattice
+
+`wan_basis.hopping` of graphene in this case (`n_band = 2`)
+|orbit_0|orbit_R|   t   |       |   R   |       |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|   1   |   2   |  3.16 |  -1   |   0   |   0   |
+|   2   |   1   |  3.16 |   0   |  -1   |   0   |
+|   1   |   2   |  3.16 |   0   |   0   |   0   |
+|   2   |   1   |  3.16 |   0   |   0   |   0   |
+|   1   |   2   |  3.16 |   0   |   1   |   0   |
+|   2   |   1   |  3.16 |   1   |   0   |   0   |
