@@ -52,12 +52,10 @@ The variable in `wan_basis`:
   * `orbit_R`: hopping to this orbit
   * `t`: hopping constance
   * `R`: hopping distance, by unit of cell with integer
-  * `R_x_all`: hopping distance, by unit of cell (unused in this example)
-  * `orbit_0_x_all`: positions of orbit_0 (unused in this example)
 * `lattice_a`: lattice structure of real space
 * `lattice_b`: reciprocal lattice
 
-`wan_basis.hopping` of graphene in this case (`n_band = 2`)
+`wan_basis.hopping` of graphene in this case (`n_band = 2, n_hopping = 6`)
 |orbit_0|orbit_R|   t   |  R(1) |  R(2) |  R(3) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |   1   |   2   |  3.16 |  -1   |   0   |   0   |
