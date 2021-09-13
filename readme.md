@@ -62,7 +62,7 @@ The variable in `wan_basis`:
 |   1   |   2   |  3.16 |   0   |   1   |   0   |
 |   2   |   1   |  3.16 |   1   |   0   |   0   |
 
-`wan_basis.lattice_b` of graphene (lattice_b(3,3) is dependent on choosed vacuum)
+`wan_basis.lattice_b` of graphene (`lattice_b(3,3)` is dependent on choosed vacuum)
 |  b(:,1)  |  b(:,2)  |  b(:,3)  |
 | :------: | :------: | :------: |
 | 2.554140 | 0.000000 | 0.000000 |
