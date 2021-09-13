@@ -58,7 +58,7 @@ The variable in `wan_basis`:
 * `lattice_b`: reciprocal lattice
 
 `wan_basis.hopping` of graphene in this case (`n_band = 2`)
-|orbit_0|orbit_R|   t   |       |   R   |       |
+|orbit_0|orbit_R|   t   |  R(1) |  R(2) |  R(3) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |   1   |   2   |  3.16 |  -1   |   0   |   0   |
 |   2   |   1   |  3.16 |   0   |  -1   |   0   |
