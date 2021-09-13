@@ -47,10 +47,10 @@ The variable in `wan_basis`:
 * `hopping`: similar format with `wannier90_hr.dat` of [Wannier90](http://www.wannier.org/)
   * `orbit_0`: hopping from this orbit
   * `orbit_R`: hopping to this orbit
-  * `t`: hopping constance
-  * `R`: hopping distance, by unit of cell with integer
-* `lattice_a`: lattice structure of real space
-* `lattice_b`: reciprocal lattice
+  * `t`: hopping constance in unit of eV
+  * `R`: hopping distance, in unit of cell with integer
+* `lattice_a`: lattice structure of real space, in unit of Angstrom
+* `lattice_b`: reciprocal lattice, in unit of Angstrom^-1
 
 `wan_basis.hopping` of graphene in this case (`n_band = 2`)
 |orbit_0|orbit_R|   t   |  R(1) |  R(2) |  R(3) |
