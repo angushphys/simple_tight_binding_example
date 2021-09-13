@@ -40,14 +40,11 @@ Descript the path of plotting band structure.
 This file is in format of [VASP's KPOINTS](https://www.vasp.at/wiki/index.php/KPOINTS).
 
 ## wan_basis.mat
-Descript the hopping constants of graphene.
-The format of `wan_basis.hopping` in this file is similar to the 
-`wannier90_hr.dat` of [Wannier90](http://www.wannier.org/).
+Descript the hopping constants and parameters of graphene.
 
 The variable in `wan_basis`:
 * `n_band`: number of orbitals
-* `n_hopping`: number of hoppings
-* `hopping`: similar format with `wannier90_hr.dat`
+* `hopping`: similar format with `wannier90_hr.dat` of [Wannier90](http://www.wannier.org/)
   * `orbit_0`: hopping from this orbit
   * `orbit_R`: hopping to this orbit
   * `t`: hopping constance
@@ -55,7 +52,7 @@ The variable in `wan_basis`:
 * `lattice_a`: lattice structure of real space
 * `lattice_b`: reciprocal lattice
 
-`wan_basis.hopping` of graphene in this case (`n_band = 2, n_hopping = 6`)
+`wan_basis.hopping` of graphene in this case (`n_band = 2`)
 |orbit_0|orbit_R|   t   |  R(1) |  R(2) |  R(3) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |   1   |   2   |  3.16 |  -1   |   0   |   0   |
@@ -64,3 +61,10 @@ The variable in `wan_basis`:
 |   2   |   1   |  3.16 |   0   |   0   |   0   |
 |   1   |   2   |  3.16 |   0   |   1   |   0   |
 |   2   |   1   |  3.16 |   1   |   0   |   0   |
+
+`wan_basis.lattice_b` of graphene
+|  b(:,1)  |  b(:,2)  |  b(:,3)  |
+| :------: | :------: | :------: |
+| 2.554140 | 0.000000 | 0.000000 |
+| 1.474634 | 2.949267 | 0.000000 |
+| 0.000000 | 0.000000 | 0.314159 |
