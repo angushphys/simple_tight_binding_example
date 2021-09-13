@@ -90,7 +90,6 @@ function [n_k, k_direct_all, k_axis, n_x_tic, x_tic] = ...
     end
     n_x_tic = n_x_tic + 1;
     x_tic(n_x_tic) = k_axis(i_k);
-
     clear distance;
 end
 
